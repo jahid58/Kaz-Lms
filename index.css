@@ -192,6 +192,8 @@ header .logo h5 {
 }
 
 .stats-item i {
+  width: 40px;
+  height: 40px;
   font-size: 2rem;
   color: var(--primary-color);
   margin-bottom: 10px;
