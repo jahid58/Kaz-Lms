@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="banner">
+      <header class="container">
+        <div class="logo">
+          <h4>Logo</h4>
+        </div>
+        <nav>
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Course</a>
+          <a href="#" class="nav-link">Contact Us</a>
+          <a href="#" class="btn-register">REGISTER</a>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section
+        class="hero-section d-flex justify-content-start align-items-center"
+      >
+        <div class="container hero-content">
+          <h1>
+            Master The Skills To <br />
+            Dive Your Career
+          </h1>
+          <p>Learn, Grow, and Achieve—Your Path to Success Starts Here</p>
+          <a href="#" class="btn-hero">GET STARTED</a>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="stats-section text-center">
+        <div class="container">
+          <div class="row w-100 justify-content-between">
+            <div class="col-md-4 stats-item">
+              <i class="bi bi-people"></i>
+              <span>100+ online Students</span>
+            </div>
+            <div class="col-md-4 stats-item">
+              <i class="bi bi-person-circle"></i>
+              <span>100+ Instructor</span>
+            </div>
+            <div class="col-md-4 stats-item">
+              <i class="bi bi-book"></i>
+              <span>100+ online course</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Categories Section -->
+<section class="category-section container">
+  <!-- Section Title and Button -->
+  <div class="d-flex justify-content-between align-items-center">
+    <h2 class="section-title">Categories</h2>
+    <a href="#" class="categories-button">Explore All Categories</a>
+  </div>
+
+  <!-- Category Cards -->
+  <div class="category-cards-container" id="categoryCardsContainer"></div>
+</section>
+
+<!-- Featured Courses Section -->
+<section class="light-bg w-100 py-5">
+  <div class="container my-5">
+    <h2 class="section-title text-start">Featured Courses</h2>
+    <div class="featured w-100" id="featuredCoursesContainer"></div>
+  </div>
+</section>
+
+
+
+<!-- Popular Courses Section -->
+<section class="container py-5">
+  <h2 class="text-start mb-4">Most popular courses</h2>
+  <div class="swiper-container overflow-hidden">
+    <div class="text-center swiper-wrapper" id="popularCoursesContainer"></div>
+  </div>
+</section>
+
+
+<!-- Bundled Courses Section -->
+<section class="container py-5">
+  <h2 class="text-start mb-4">Most popular courses</h2>
+  <div class="swiper-container overflow-hidden">
+    <div class="text-center swiper-wrapper" id="bundledCoursesContainer"></div>
+  </div>
+</section>
+
+<!-- offer -->
+    <section class="light-bg py-5">
+
+  
+    <div class="container offer-section">
+      <h2 class="section-title text-start">What We Offer</h2>
+      <ul class="nav nav-tabs offer-tab-nav" id="offerTab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="sharpen-skill-tab"
+            data-bs-toggle="tab"
+            href="#sharpen-skill"
+            role="tab"
+            aria-controls="sharpen-skill"
+            aria-selected="true"
+            >Sharpen Skill</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="career-guideline-tab"
+            data-bs-toggle="tab"
+            href="#career-guideline"
+            role="tab"
+            aria-controls="career-guideline"
+            aria-selected="false"
+            >Career Guideline</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="provide-certificates-tab"
+            data-bs-toggle="tab"
+            href="#provide-certificates"
+            role="tab"
+            aria-controls="provide-certificates"
+            aria-selected="false"
+            >Provide Certificates</a
+          >
+        </li>
+      </ul>
+
+      <div class="tab-content" id="offerTabContent">
+        <!-- Sharpen Skill Tab Content -->
+        <div
+          id="sharpen-skill"
+          class="tab-pane fade show active"
+          role="tabpanel"
+          aria-labelledby="sharpen-skill-tab"
+        >
+          <div class="offer-content">
+            <div class="offer-text">
+              <h3>Grow Your Skill with Our Tested Path</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nunc
+                nisl eu consectetur. Mi massa elementum odio eu viverra amet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nunc
+                nisl eu consectetur. Mi massa elementum odio eu viverra amet.
+              </p>
+              <a href="#" class="offer-button">REGISTER NOW</a>
+            </div>
+            <div class="offer-image">
+              <img src="/assets/images/offer/1.svg" alt="Offer Image" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Career Guideline Tab Content -->
+        <div
+          id="career-guideline"
+          class="tab-pane fade"
+          role="tabpanel"
+          aria-labelledby="career-guideline-tab"
+        >
+          <div class="offer-content">
+            <div class="offer-text">
+              <h3>Get Expert Career Guidance</h3>
+              <p>
+                Our career guidance program connects you with industry experts
+                who provide insights, mentorship, and advice on shaping your
+                career path. We focus on identifying your strengths, developing
+                essential skills, and finding the best career opportunities that
+                align with your goals. Whether you're starting out or looking to
+                advance, our guidance will help you make informed decisions and
+                achieve success.
+              </p>
+              <a href="#" class="offer-button">LEARN MORE</a>
+            </div>
+            <div class="offer-image">
+              <img
+                src="/assets/images/offer/1.svg"
+                alt="Career Guidance Image"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Provide Certificates Tab Content -->
+        <div
+          id="provide-certificates"
+          class="tab-pane fade"
+          role="tabpanel"
+          aria-labelledby="provide-certificates-tab"
+        >
+          <div class="offer-content">
+            <div class="offer-text">
+              <h3>Earn Recognized Certificates</h3>
+              <p>
+                Upon completing our courses, receive certificates that showcase
+                your skills and knowledge to potential employers. Our
+                certifications are recognized by many in the industry and help
+                validate your expertise in various fields. Adding these
+                certificates to your resume and LinkedIn profile demonstrates
+                your commitment to learning and professional growth, making you
+                a competitive candidate in the job market.
+              </p>
+              <a href="#" class="offer-button">VIEW CERTIFICATIONS</a>
+            </div>
+            <div class="offer-image">
+              <img src="/assets/images/offer/1.svg" alt="Certification Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  </section>
+  
+
+
+
+<section class="container py-5 w-100">
+  <h2 class="section-title text-start">Our Leader</h2>
+  <div class="ourLeader w-100">
+    <!-- Leader Cards will be inserted here dynamically -->
+  </div>
+</section>
+
+
+    <!-- Experience -->
+
+<section class="light-bg py-5 w-100">
+  <div class="container" style="max-width: 1000px">
+    <h2 class="section-title text-center">Experience</h2>
+    <div class="experience w-100 w-max mx-auto" id="experienceContainer"></div>
+  </div>
+</section>
+
+
+    <!-- start your journey -->
+   
+      <section
+        class="start-journey flex-center"
+      >
+        <div class="container hero-content text-center">
+          <h1>
+           Start your journey today.
+          </h1>
+          <p class="mb-5">Learn, Grow, and Achieve—Your Path to Success Starts Here</p>
+          <a href="#" class="btn-hero">GET STARTED</a>
+        </div>
+      </section>
+      <!-- newsletter -->
+      <section class="newsletter bg-white py-5">
+        <div class="container flex-between">
+     <img src="/assets/images/newsletter.jpg" alt="">
+        <div>
+          <h4>Straight from our desk, to your Inbox.</h4>
+          <div class="flex-center mt-3">
+  <input type="text" name="email" placeholder="Your Email" id="">
+  <button class="send-btn">Send</button>
+          </div>
+        
+
+        </div>
+        </div>
+   
+      </section>
+<!-- Footer Section -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Logo Section -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title"> 
+          <!-- Replace with your logo image or text -->
+          <img src="path-to-logo.png" alt="Logo" class="img-fluid mb-3" style="width: 150px;">
+          <!-- or <span>Your Logo</span> -->
+        </h5>
+        <p class="text-muted">Your company tagline or a brief description about your company here.</p>
+      </div>
+
+      <!-- Get Help Section -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title">Get Help</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-muted">FAQs</a></li>
+          <li><a href="#" class="text-muted">Support</a></li>
+          <li><a href="#" class="text-muted">Customer Service</a></li>
+       
+        </ul>
+      </div>
+
+      <!-- Programs Section -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title">Programs</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-muted">Our Courses</a></li>
+          <li><a href="#" class="text-muted">Certifications</a></li>
+          <li><a href="#" class="text-muted">Workshops</a></li>
+          <li><a href="#" class="text-muted">Scholarships</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title">Contact</h5>
+        <p class="text-muted">1234 Street Name, City, Country</p>
+        <p class="text-muted">Email: support@yourdomain.com</p>
+        <p class="text-muted">Phone: +123 456 7890</p>
+    <div class="social-icons d-flex mt-2">
+            <a href="#" class="text-muted me-3"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-muted me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-muted me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-muted"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      
+  const experiences = [
+    {
+      image: "/assets/images/experience/1.png",
+      name: "Thomas Winsley",
+      position: "Grasmallhic Designer",
+      location: "Dhaka, Bangladesh",
+      review: "Lorem ipsum dolor sit amet consectetur. A vel urna tellus ut auctor facilisis aliquet egestas feugiat. Dolor nullam facilisis at mi urna enim tristique lacus sodales. Sapien mauris sit purus tristique commodo vel curabitur tristique. Pulvinar velit scelerisque nunc suspendisse amet.Sapien mauris sit purus tristique commodo vel curabitur tristique"
+    },
+    {
+      image: "/assets/images/experience/2.png",
+      name: "Thomas Winsley",
+      position: "Grasmallhic Designer",
+      location: "Dhaka, Bangladesh",
+      review: "Lorem ipsum dolor sit amet consectetur. A vel urna tellus ut auctor facilisis aliquet egestas feugiat. Dolor nullam facilisis at mi urna enim tristique lacus sodales. Sapien mauris sit purus tristique commodo vel curabitur tristique. Pulvinar velit scelerisque nunc suspendisse amet.Sapien mauris sit purus tristique commodo vel curabitur tristique"
+    },
+    {
+      image: "/assets/images/experience/4.png",
+      name: "Thomas Winsley",
+      position: "Grasmallhic Designer",
+      location: "Dhaka, Bangladesh",
+      review: "Lorem ipsum dolor sit amet consectetur. A vel urna tellus ut auctor facilisis aliquet egestas feugiat. Dolor nullam facilisis at mi urna enim tristique lacus sodales. Sapien mauris sit purus tristique commodo vel curabitur tristique. Pulvinar velit scelerisque nunc suspendisse amet.Sapien mauris sit purus tristique commodo vel curabitur tristique"
+    }
+  ];
+
+  const experienceContainer = document.getElementById('experienceContainer');
+
+  experiences.forEach(experience => {
+    const experienceHTML = `
+      <div class="">
+        <div class="review-card">
+          <img src="${experience.image}" alt="${experience.name} Image" />
+          <div class="review">
+            <img src="${experience.image}" alt="${experience.name} Image" />
+            <p>${experience.review}</p>
+          </div>
+        </div>
+
+        <div class="mt-2">
+          <h5>${experience.name}</h5>
+          <small>${experience.position}, ${experience.location}</small>
+        </div>
+      </div>
+    `;
+    experienceContainer.insertAdjacentHTML("beforeend", experienceHTML);
+  });
+  const categories = [
+    { icon: "bi bi-display", title: "Development", courses: "38 Courses" },
+    { icon: "bi bi-headphones", title: "Design", courses: "38 Courses" },
+    { icon: "bi bi-cloud", title: "Cloud Computing", courses: "38 Courses" },
+    { icon: "bi bi-bar-chart", title: "Data Science", courses: "38 Courses" },
+    { icon: "bi bi-person-circle", title: "Personal Development", courses: "38 Courses" }
+  ];
+
+  const categoryCardsContainer = document.getElementById("categoryCardsContainer");
+  categories.forEach(category => {
+    const cardHTML = `
+      <div class="card-container">
+        <div class="category-card">
+          <i class="${category.icon} category-icon"></i>
+          <div class="category-title">${category.title}</div>
+          <p class="category-text">${category.courses}</p>
+        </div>
+      </div>
+    `;
+    categoryCardsContainer.insertAdjacentHTML("beforeend", cardHTML);
+  });
+  // featured 
+
+  const featuredCourses = [
+    {
+      image: "/assets/images/featured/1.jpg",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$245",
+      discount: "-10%"
+    },
+    {
+      image: "/assets/images/featured/2.jpg",
+      title: "The Complete Python Bootcamp From Zero to Hero",
+      price: "$245",
+      discount: "-10%"
+    },
+    {
+      image: "/assets/images/featured/3.jpg",
+      title: "The Complete Python Bootcamp From Zero to Hero",
+      price: "$245",
+      discount: "-10%"
+    },
+    {
+      image: "/assets/images/featured/4.jpg",
+      title: "The Data Science Course: Complete Data Science",
+      price: "$245",
+      discount: "-10%"
+    },
+    {
+      image: "/assets/images/featured/5.jpg",
+      title: "The Data Science Course: Complete Data Science",
+      price: "$245",
+      discount: "-10%"
+    }
+  ];
+
+  const featuredCoursesContainer = document.getElementById("featuredCoursesContainer");
+  featuredCourses.forEach(course => {
+    const courseHTML = `
+      <div class="course-card">
+        <div class="course-image" style="background-image: url('${course.image}')"></div>
+        <div class="course-info">
+          <h5 class="course-title">${course.title}</h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="course-price">${course.price} <span class="course-discount">${course.discount}</span></p>
+            <a href="#" class="view-more">View More</a>
+          </div>
+        </div>
+      </div>
+    `;
+    featuredCoursesContainer.insertAdjacentHTML("beforeend", courseHTML);
+  });
+
+// popular courses
+  const popularCourses = [
+    {
+      image: "/assets/images/popular-course/1.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/2.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/3.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/4.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/2.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    }
+  ];
+
+  const popularCoursesContainer = document.getElementById("popularCoursesContainer");
+
+  popularCourses.forEach(course => {
+    const courseHTML = `
+      <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="${course.image}" class="card-img-top" alt="${course.title}" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <span class="popular-course-category">${course.category}</span>
+              <div class="popular-course-students flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>${course.students}</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>${course.lessons}</p>
+                <p class="popular-course-rating mx-2 text-black">${course.rating}</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">${course.title}</p>
+            <div class="flex-between">
+              <p class="popular-course-price">${course.price}</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    popularCoursesContainer.insertAdjacentHTML("beforeend", courseHTML);
+  });
+// bundled courses
+  const bundledCourses = [
+    {
+      image: "/assets/images/popular-course/1.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/2.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/3.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/4.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    },
+    {
+      image: "/assets/images/popular-course/2.jpg",
+      category: "Design",
+      students: 10,
+      lessons: 12,
+      rating: "3.5★",
+      title: "DESIGN RULES: Principles + Practices for Great UI Design",
+      price: "$490"
+    }
+  ];
+
+  const bundledCoursesContainer = document.getElementById("bundledCoursesContainer");
+
+  bundledCourses.forEach(course => {
+    const courseHTML = `
+      <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="${course.image}" class="card-img-top" alt="${course.title}" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <span class="popular-course-category">${course.category}</span>
+              <div class="popular-course-students flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>${course.students}</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>${course.lessons}</p>
+                <p class="popular-course-rating mx-2 text-black">${course.rating}</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">${course.title}</p>
+            <div class="flex-between">
+              <p class="popular-course-price">${course.price}</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    bundledCoursesContainer.insertAdjacentHTML("beforeend", courseHTML);
+  });
+// leaders
+  const leaders = [
+    {
+      name: "Mr. Jonson",
+      image: "/assets/images/leader/1.jpg",
+      description: "sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit"
+    },
+    {
+      name: "Mr. Jonson",
+      image: "/assets/images/leader/2.jpg",
+      description: "sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit"
+    },
+    {
+      name: "Mr. Jonson",
+      image: "/assets/images/leader/3.jpg",
+      description: "sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit"
+    },
+    {
+      name: "Mr. Jonson",
+      image: "/assets/images/leader/4.jpg",
+      description: "sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit"
+    },
+    {
+      name: "Mr. Jonson",
+      image: "/assets/images/leader/2.jpg",
+      description: "sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit"
+    }
+  ];
+
+  const container = document.querySelector('.ourLeader');
+
+  leaders.forEach(leader => {
+    const leaderCard = `
+      <div class="leader-card">
+        <div class="course-image" style="background-image: url('${leader.image}')"></div>
+        <div class="leader-info">
+          <h5 class="leader-name">${leader.name}</h5>
+          <p>${leader.description}</p>
+        </div>
+      </div>
+    `;
+
+    container.innerHTML += leaderCard;
+  });
+
+</script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        spaceBetween: 30,
+
+        // Add pagination
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true, // Enable pagination bullets clickable
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 4,
+          },
+       
+          1560: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        },
+      });
+
+    </script>
+
+  </body>
+</html>
