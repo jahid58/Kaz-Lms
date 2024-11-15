@@ -102,7 +102,7 @@ header .logo h5 {
 }
 
 .nav-link {
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
   margin: 0 15px;
   font-size: 14px;
   text-decoration: none;
