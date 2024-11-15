@@ -85,24 +85,18 @@ header {
   border-radius: 30px;
 }
 
- header ul{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 !important;
-  padding: 0 !important
 }
-header ul li{
-  list-style: none;
-}
-
 header .logo h5 {
   color: var(--secondary-color);
   margin: 0;
 }
 
 .nav-link {
-  color: var(--secondary-color) !important;
+  color: var(--secondary-color);
   margin: 0 15px;
   font-size: 14px;
   text-decoration: none;
