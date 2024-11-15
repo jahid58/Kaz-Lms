@@ -117,7 +117,21 @@ header .logo h5 {
   background-color: var(--accent-color);
   color: var(--secondary-color);
 }
+.btn-getStarted {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
 
+.btn-getStarted:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
 /* Hero Section */
 .hero-section {
   color: var(--secondary-color);
