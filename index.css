@@ -100,6 +100,7 @@ header .logo h5 {
   margin: 0 15px;
   font-size: 14px;
   text-decoration: none;
+  display: none;
 }
 .nav-link:hover {
   color: var(--accent-color) !important;
@@ -221,7 +222,7 @@ header .logo h5 {
  width: 60px;
  height: 60px;
   border-radius: 50%;
-    margin-right: 10px;
+    margin: 10px;
 }
 /* Categories Section */
 .categories {
@@ -614,6 +615,10 @@ footer a {
   .responsive-container {
     max-width: 540px;
   }
+  .nav-link {
+
+  display: block;
+}
   .category-cards-container,
 .featured,
 .ourLeader {
