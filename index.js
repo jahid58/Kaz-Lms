@@ -337,13 +337,16 @@
           },
           // when window width is >= 640px
           640: {
-            slidesPerView: 1,
+            slidesPerView: 2,
           },
           // when window width is >= 1024px
           1024: {
+            slidesPerView: 3,
+          },
+          1100: {
             slidesPerView: 4,
           },
-       
+
           1560: {
             slidesPerView: 4,
             spaceBetween: 30,
