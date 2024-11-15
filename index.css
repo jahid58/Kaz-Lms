@@ -124,7 +124,7 @@ header .logo h5 {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border: none;
-  padding: 10px 20px;
+ padding: 0.7rem 1.5rem;
   border-radius: 20px;
   font-weight: 600;
   text-decoration: none;
