@@ -24,7 +24,7 @@
     <div class="banner">
       <header class="responsive-container">
         <div class="logo">
-          <h5>Logo</h5>
+          <img src="/assets/images/Logo.svg" class="img-fluid" alt="Logo">
         </div>
         <nav>
           <a href="#" class="nav-link">Home</a>
@@ -76,7 +76,7 @@
       </section>
     </div>
 
-    <!-- Categories Section -->
+<!-- Categories Section -->
 <section class="category-section responsive-container">
   <!-- Section Title and Button -->
   <div class="d-flex justify-content-between align-items-center">
@@ -85,33 +85,334 @@
   </div>
 
   <!-- Category Cards -->
-  <div class="category-cards-container" id="categoryCardsContainer"></div>
+  <div class="category-cards-container">
+    <div class="card-container">
+      <div class="category-card">
+        <i class="bi bi-display category-icon"></i>
+        <p class="category-title">Development</p>
+        <small class="category-text">38 Courses</small>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="category-card">
+        <i class="bi bi-headphones category-icon"></i>
+        <p class="category-title">Design</p>
+        <small class="category-text">38 Courses</small>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="category-card">
+        <i class="bi bi-cloud category-icon"></i>
+        <p class="category-title">Cloud Computing</p>
+        <small class="category-text">38 Courses</small>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="category-card">
+        <i class="bi bi-bar-chart category-icon"></i>
+        <p class="category-title">Data Science</p>
+        <small class="category-text">38 Courses</small>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="category-card">
+        <i class="bi bi-person-circle category-icon"></i>
+        <p class="category-title">Personal Development</p>
+        <small class="category-text">38 Courses</small>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Featured Courses Section -->
 <section class="light-bg w-100 py-5">
-  <div class="responsive-container ">
+  <div class="responsive-container">
     <h2 class="section-title text-start">Featured Courses</h2>
-    <div class="featured w-100" id="featuredCoursesContainer"></div>
+    <div class="featured w-100">
+      <div class="course-card">
+        <img class="course-image" src="/assets/images/featured/1.jpg" />
+        <div class="course-info">
+          <p class="course-title">DESIGN RULES: Principles + Practices for Great UI Design</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="course-price">$245 <span class="course-discount">-10%</span></p>
+            <a href="#" class="view-more">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="course-card">
+        <img class="course-image" src="/assets/images/featured/2.jpg" />
+        <div class="course-info">
+          <p class="course-title">The Complete Python Bootcamp From Zero to Hero</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="course-price">$245 <span class="course-discount">-10%</span></p>
+            <a href="#" class="view-more">View More</a>
+          </div>
+        </div>
+      </div>
+        <div class="course-card">
+        <img class="course-image" src="/assets/images/featured/3.jpg" />
+        <div class="course-info">
+          <p class="course-title">The Complete Python Bootcamp From Zero to Hero</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="course-price">$245 <span class="course-discount">-10%</span></p>
+            <a href="#" class="view-more">View More</a>
+          </div>
+        </div>
+      </div>
+        <div class="course-card">
+        <img class="course-image" src="/assets/images/featured/4.jpg" />
+        <div class="course-info">
+          <p class="course-title">The Complete Python Bootcamp From Zero to Hero</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="course-price">$245 <span class="course-discount">-10%</span></p>
+            <a href="#" class="view-more">View More</a>
+          </div>
+        </div>
+      </div>
+        <div class="course-card">
+        <img class="course-image" src="/assets/images/featured/5.jpg" />
+        <div class="course-info">
+          <p class="course-title">The Complete Python Bootcamp From Zero to Hero</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="course-price">$245 <span class="course-discount">-10%</span></p>
+            <a href="#" class="view-more">View More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more cards similarly -->
+    </div>
   </div>
 </section>
-
-
 
 <!-- Popular Courses Section -->
 <section class="responsive-container py-5">
   <h2 class="text-start mb-4">Most popular courses</h2>
   <div class="swiper-container overflow-hidden">
-    <div class="text-center swiper-wrapper" id="popularCoursesContainer"></div>
+    <div class="text-center swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/popular-course/1.jpg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/popular-course/2.jpg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>  <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/popular-course/3.jpg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>  <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/popular-course/4.jpg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>  <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/popular-course/2.jpg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
-
 
 <!-- Bundled Courses Section -->
 <section class="responsive-container py-5">
   <h2 class="text-start mb-4">Most popular courses</h2>
   <div class="swiper-container overflow-hidden">
-    <div class="text-center swiper-wrapper" id="bundledCoursesContainer"></div>
+    <div class="text-center swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/bundle/1.jpeg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/bundle/2.jpeg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>  <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/bundle/3.jpeg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>  <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/bundle/4.jpeg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>  <div class="swiper-slide">
+        <div class="card popular-course-card">
+          <img src="/assets/images/bundle/2.jpeg" class="card-img-top" alt="Course 1" />
+          <div class="card-body popular-course-body">
+            <div class="flex-between mb-2">
+              <small class="popular-course-category">Design</small>
+              <div class="popular-course-info flex-between">
+                <i class="bi bi-people me-2"></i>
+                <p>10</p>
+                <i class="bi bi-book ms-4 me-2"></i>
+                <p>12</p>
+                <p class="popular-course-rating mx-2">3.5★</p>
+              </div>
+            </div>
+            <p class="popular-course-title mb-2">DESIGN RULES: Principles + Practices for Great UI Design</p>
+            <div class="flex-between">
+              <p class="popular-course-price">$490</p>
+              <a href="#" class="popular-course-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -246,13 +547,56 @@
   
 
 
-
 <section class="responsive-container py-5 w-100">
   <h2 class="section-title text-start">Our Leader</h2>
   <div class="ourLeader w-100">
-    <!-- Leader Cards will be inserted here dynamically -->
+    <!-- Leader 1 -->
+    <div class="leader-card">
+      <img src="/assets/images/leader/1.jpg" alt="Mr. Jonson" />
+      <div class="leader-info">
+        <h5 class="leader-name">Mr. Jonson</h5>
+        <p>sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit</p>
+      </div>
+    </div>
+
+    <!-- Leader 2 -->
+    <div class="leader-card">
+      <img src="/assets/images/leader/2.jpg" alt="Mr. Jonson" />
+      <div class="leader-info">
+        <h5 class="leader-name">Mr. Jonson</h5>
+        <p>sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit</p>
+      </div>
+    </div>
+
+    <!-- Leader 3 -->
+    <div class="leader-card">
+      <img src="/assets/images/leader/3.jpg" alt="Mr. Jonson" />
+      <div class="leader-info">
+        <h5 class="leader-name">Mr. Jonson</h5>
+        <p>sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit</p>
+      </div>
+    </div>
+
+    <!-- Leader 4 -->
+    <div class="leader-card">
+      <img src="/assets/images/leader/4.jpg" alt="Mr. Jonson" />
+      <div class="leader-info">
+        <h5 class="leader-name">Mr. Jonson</h5>
+        <p>sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit</p>
+      </div>
+    </div>
+
+    <!-- Leader 5 -->
+    <div class="leader-card">
+      <img src="/assets/images/leader/2.jpg" alt="Mr. Jonson" />
+      <div class="leader-info">
+        <h5 class="leader-name">Mr. Jonson</h5>
+        <p>sed elit eu ipsum viverra Nam scelerisque ipsum ex. viverra Morbi elementum elit</p>
+      </div>
+    </div>
   </div>
 </section>
+
 
 
     <!-- Experience -->
@@ -260,9 +604,61 @@
 <section class="light-bg py-5 w-100">
   <div class="responsive-container" style="max-width: 1000px">
     <h2 class="section-title text-center">Experience</h2>
-    <div class="experience w-100 w-max mx-auto" id="experienceContainer"></div>
+    <div class="experience w-100 w-max mx-auto" id="experienceContainer">
+      <!-- Experience 1 -->
+      <div class="">
+        <div class="review-card">
+          <img src="/assets/images/experience/1.png" alt="Thomas Winsley Image" />
+          <div class="review">
+            <img src="/assets/images/experience/1.png" alt="Thomas Winsley Image" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur. A vel urna tellus ut auctor facilisis aliquet egestas feugiat. Dolor nullam facilisis at mi urna enim tristique lacus sodales. Sapien mauris sit purus tristique commodo vel curabitur tristique.
+            </p>
+          </div>
+        </div>
+        <div class="mt-2">
+          <h5>Thomas Winsley</h5>
+          <small>Grasmallhic Designer, Dhaka, Bangladesh</small>
+        </div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="">
+        <div class="review-card">
+          <img src="/assets/images/experience/2.png" alt="Thomas Winsley Image" />
+          <div class="review">
+            <img src="/assets/images/experience/2.png" alt="Thomas Winsley Image" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur. A vel urna tellus ut auctor facilisis aliquet egestas feugiat. Dolor nullam facilisis at mi urna enim tristique lacus sodales. Sapien mauris sit purus tristique commodo vel curabitur tristique.
+            </p>
+          </div>
+        </div>
+        <div class="mt-2">
+          <h5>Thomas Winsley</h5>
+          <small>Grasmallhic Designer, Dhaka, Bangladesh</small>
+        </div>
+      </div>
+
+      <!-- Experience 3 -->
+      <div class="">
+        <div class="review-card">
+          <img src="/assets/images/experience/4.png" alt="Thomas Winsley Image" />
+          <div class="review">
+            <img src="/assets/images/experience/4.png" alt="Thomas Winsley Image" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur. A vel urna tellus ut auctor facilisis aliquet egestas feugiat. Dolor nullam facilisis at mi urna enim tristique lacus sodales. Sapien mauris sit purus tristique commodo vel curabitur tristique.
+            </p>
+          </div>
+        </div>
+        <div class="mt-2">
+          <h5>Thomas Winsley</h5>
+          <small>Grasmallhic Designer, Dhaka, Bangladesh</small>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
 
 
     <!-- start your journey -->
@@ -303,7 +699,7 @@
       <div class="col-md-3 mb-4">
         <h5 class="footer-title"> 
           <!-- Replace with your logo image or text -->
-          <img src="path-to-logo.png" alt="Logo" class="img-fluid mb-3" style="width: 150px;">
+          <img src="assets/images/logo-bg.svg" alt="Logo" class="img-fluid mb-3" style="width: 150px;">
           <!-- or <span>Your Logo</span> -->
         </h5>
         <p class="text-muted">Your company tagline or a brief description about your company here.</p>
@@ -356,7 +752,40 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="/index.js"></script>
 
+<script>
+       var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        spaceBetween: 20,
+
+        // Add pagination
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true, // Enable pagination bullets clickable
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 3,
+          },
+          1100: {
+            slidesPerView: 4,
+          },
+
+          1560: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        },
+      });
+</script>
   </body>
 </html>
