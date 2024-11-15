@@ -101,7 +101,10 @@ header .logo h5 {
   font-size: 14px;
   text-decoration: none;
 }
+.nav-link:hover {
+  color: var(--accent-color) !important;
 
+}
 .btn-register {
   color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -368,7 +371,7 @@ header .logo h5 {
     transition: transform 0.3s ease;
 }
 .popular-course-card:hover .card-img-top {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .popular-course-body {
   padding: 1rem 0.5rem;
