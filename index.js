@@ -255,12 +255,12 @@
           <div class="card-body popular-course-body">
             <div class="flex-between mb-2">
               <small class="popular-course-category">${course.category}</small>
-              <div class="popular-course-students flex-between">
+              <div class="popular-course-info flex-between">
                 <i class="bi bi-people me-2"></i>
                 <p>${course.students}</p>
                 <i class="bi bi-book ms-4 me-2"></i>
                 <p>${course.lessons}</p>
-                <p class="popular-course-rating mx-2 text-black">${course.rating}</p>
+                <p class="popular-course-rating mx-2">${course.rating}</p>
               </div>
             </div>
             <p class="popular-course-title mb-2">${course.title}</p>
@@ -323,7 +323,7 @@
 
       var swiper = new Swiper('.swiper-container', {
         loop: true,
-        spaceBetween: 30,
+        spaceBetween: 20,
 
         // Add pagination
         pagination: {
